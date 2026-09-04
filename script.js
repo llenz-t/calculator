@@ -59,7 +59,6 @@ function clickButton(e) {
 
     if (btnText === '.' && displayText.includes('.')) return;
 
-    // 4. Operators
     if (['+', '-', '*', '/'].includes(btnText)) {
         if (displayText === '' || displayText === 'Error') {
             currentOperation = btnText;
